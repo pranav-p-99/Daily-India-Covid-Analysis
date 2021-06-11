@@ -12,7 +12,6 @@ import plotly.graph_objects as go
 import datetime
 
 
-@st.cache()
 def get_data_1():
     url = 'https://api.covid19india.org/csv/latest/state_wise_daily.csv'
     urllib.request.urlretrieve(url, 'data1.csv')
